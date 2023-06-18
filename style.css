@@ -18,11 +18,11 @@ a{
 }
 
 .credit{
-    position: absolute;
-    left: 7rem;
-    bottom: 1rem;
+    position: relative;
+    bottom: 3rem;
     color: white;
     text-align: center;
+    font-size: 2ch;
 }
 
 .main-left,.main-right{
@@ -42,7 +42,6 @@ a{
     padding: 0px 0px;
     display: flex;
     flex-direction: column;
-    float: right;
     
 }
 .backgroundLeaf{
@@ -78,15 +77,12 @@ a{
     max-height: 15ch;
 }
 .header{
-    width: 65vw;
+    /* width: inherit; */
     min-height: 14rem;
     background-color: #ededed;
     top: 0px;
-    padding-top: 5rem;
-    padding-bottom: 2rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    /* overflow: hidden; */
+    padding: 3rem;
+    overflow: hidden;
 }
 h5{
     font-size: 1.5rem;
@@ -97,8 +93,8 @@ h5{
     margin-top: 2rem;
 }
 .head-line{
-    /* margin-top: 0px; */
-    width: 70%;
+    margin-top: 0px;
+    width: 53ch;
 }
 .main{
     min-height: 28rem;
@@ -109,7 +105,6 @@ h5{
     padding: 3rem;
     min-height: 14rem;
     background-color: #ededed;
-    width: 65vw;
 
 }
 input{
@@ -152,13 +147,6 @@ legend{
 input{
     height: 1.8rem;
     width: 18rem;
-    
-    
-}
-input[type=text],[type=number],[type=email],[type=password]
-{
-    border: 1px solid #E5E7EB;
-    border-radius: 0.5rem;
 }
 .input-style{
     font-size: 2.5ch;
@@ -166,16 +154,4 @@ input[type=text],[type=number],[type=email],[type=password]
 .login{
     margin-top: 2rem;
     font-size: 2.5ch;
-}
-input:focus{
-    border: 3px solid blue ;
-}
-.error{
-    position: relative;
-    color: red;
-    left: 1.3rem;
-    bottom: 2.3rem;
-}
-input[type=password]{
-    border: 2px solid red;
 }
